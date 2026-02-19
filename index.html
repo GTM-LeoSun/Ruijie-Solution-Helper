@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruijie Solution Configurator</title>
+    <title>Configurador de Soluciones Ruijie</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -31,14 +31,14 @@
 <body class="text-slate-800">
 
     <div id="app" class="min-h-screen flex flex-col">
-        <!-- Navigation Bar -->
+        <!-- Barra de Navegación -->
         <nav class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50">
             <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
                 <div class="flex items-center gap-2">
                     <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
                         <i class="fas fa-cube"></i>
                     </div>
-                    <span class="font-bold text-xl tracking-tight">Ruijie Solution Expert</span>
+                    <span class="font-bold text-xl tracking-tight">Experto en Soluciones Ruijie</span>
                 </div>
             </div>
         </nav>
@@ -46,22 +46,22 @@
         <main class="flex-grow max-w-6xl mx-auto w-full px-6 py-8">
             <div id="wizard-container">
                 
-                <!-- Step 1: Scenario Selection (首页) -->
+                <!-- Paso 1: Selección de Escenario -->
                 <div id="step-1" class="step-content animate-fade-in">
-                    <h2 class="text-2xl md:text-3xl font-bold mb-2">Select Scenario</h2>
-                    <p class="text-slate-500 mb-8">Ruijie provides targeted solutions for different scenarios.</p>
+                    <h2 class="text-2xl md:text-3xl font-bold mb-2">Seleccionar Escenario</h2>
+                    <p class="text-slate-500 mb-8">Ruijie ofrece soluciones específicas para diferentes escenarios.</p>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <!-- Small/Medium Office 按钮 -->
+                        <!-- Botón Pequeña/Mediana Oficina -->
                         <div onclick="window.location.href='Small_Medium_Office.html'" class="p-6 bg-white border-2 border-slate-100 rounded-2xl cursor-pointer hover:border-blue-500 hover:shadow-lg transition-all group">
                             <i class="fas fa-building text-3xl text-blue-500 mb-4 transition-transform group-hover:scale-110"></i>
-                            <h3 class="text-lg font-bold mb-1">Small/Medium Office</h3>
-                            <p class="text-sm text-slate-500">Stable connectivity, multi-user support, and high-speed collaboration.</p>
+                            <h3 class="text-lg font-bold mb-1">Pequeña/Mediana Oficina</h3>
+                            <p class="text-sm text-slate-500">Conectividad estable, soporte multiusuario y colaboración de alta velocidad.</p>
                         </div>
-                        <!-- Budget Hotel 按钮，已激活并添加跳转 -->
+                        <!-- Botón Hotel Económico -->
                         <div onclick="window.location.href='Budget_Hotel.html'" class="p-6 bg-white border-2 border-slate-100 rounded-2xl cursor-pointer hover:border-blue-500 hover:shadow-lg transition-all group">
                             <i class="fas fa-hotel text-3xl text-blue-500 mb-4 transition-transform group-hover:scale-110"></i>
-                            <h3 class="text-lg font-bold mb-1">Budget Hotel</h3>
-                            <p class="text-sm text-slate-500">Full Wi-Fi coverage, smooth guest experience and simple management.</p>
+                            <h3 class="text-lg font-bold mb-1">Hotel Económico</h3>
+                            <p class="text-sm text-slate-500">Cobertura Wi-Fi total, experiencia fluida para los huéspedes y gestión sencilla.</p>
                         </div>
                     </div>
                 </div>
